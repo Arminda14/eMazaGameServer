@@ -12,6 +12,7 @@
                     <div class="hero-cta">
                         <a class="button button-primary" href="https://google-play-games.br.uptodown.com/android" target="_blank">Baixar o aplicativo</a>
                         <a class="button" href="/admin">Saber mais</a>
+
                     </div>
                 </div>
                 <div class="hero-figure anime-element">
@@ -40,13 +41,17 @@
                     <div class="feature text-center is-revealing">
                         <div class="feature-inner">
                             <div class="feature-icon">
-                                <img src="{{ asset('template/dist/images/feature-icon-01.svg')}}" alt="Feature 01">
+                                <img
+                                    src="{{ asset('contents/logolaravel.png')}}"
+                                    alt="Feature 01"
+                                    style="width: 90px; height: 70px"
+                                >
                             </div>
                             <h4 class="feature-title mt-24">
                                 Aprenda Laravel
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo.
                             </p>
                         </div>
                     </div>
@@ -57,10 +62,10 @@
                             </div>
 
                             <h4 class="feature-title mt-24">
-                                Aprenda Laravel
+                                Laravel o framework PHP
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Nós já lançamos as bases para criar sem se preocupar com as pequenas coisas.
                             </p>
 
                         </div>
@@ -68,55 +73,72 @@
                     <div class="feature text-center is-revealing">
                         <div class="feature-inner">
                             <div class="feature-icon">
-                                <img src="{{ asset('template/dist/images/feature-icon-03.svg')}}" alt="Feature 03">
+                                <img
+                                    src="{{ asset('contents/experiencia.png')}}"
+                                    alt="Feature 01"
+                                    style="width: 95px; height: 70px"
+                                >
                             </div>
                             <h4 class="feature-title mt-24">
-                                Aprenda Laravel
+                                Ganhe experiência
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                Todas as partes do ecossistema são poderosas, bem projetadas, divertidas de trabalhar e possuem documentação estelar. É uma alegria fazer parte da comunidade amigável e útil ao redor.
                             </p>
                         </div>
                     </div>
                     <div class="feature text-center is-revealing">
                         <div class="feature-inner">
                             <div class="feature-icon">
-                                <img src="{{ asset('template/dist/images/feature-icon-04.svg')}}" alt="Feature 04">
+                                <img
+                                    src="{{ asset('contents/comunidade.png')}}"
+                                    alt="Feature 01"
+                                    style="width: 70px; height: 65px"
+                                >
                             </div>
 
                             <h4 class="feature-title mt-24">
-                                Aprenda Laravel
+
+                                Comunidade Laravel
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                Laravel cresceu para ser uma comunidade inovadora e ativa incrível. Laravel é muito mais do que apenas um framework PHP com uma velocidade de desenvolvimentos incrível e um grande prazer de uso.
                             </p>
                         </div>
                     </div>
                     <div class="feature text-center is-revealing">
                         <div class="feature-inner">
                             <div class="feature-icon">
-                                <img src="{{ asset('template/dist/images/feature-icon-05.svg')}}" alt="Feature 05">
+                                <img
+                                    src="{{ asset('contents/diversao.png')}}"
+                                    alt="Feature 01"
+                                    style="width: 98px; height: 105px"
+                                >
                             </div>
 
                             <h4 class="feature-title mt-24">
-                                Aprenda Laravel
+                                Divirta-se com Laravel
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                Crie aplicativos robustos e full-stack em PHP usando Laravel e Livewire . Adora JavaScript? Construa um frontend monolítico orientado a React ou Vue, emparelhando Laravel com Inertia .
                             </p>
                         </div>
                     </div>
                     <div class="feature text-center is-revealing">
                         <div class="feature-inner">
                             <div class="feature-icon">
-                                <img src="{{ asset('template/dist/images/feature-icon-06.svg')}}" alt="Feature 06">
+                                <img
+                                    src="{{ asset('contents/rapidez.png')}}"
+                                    alt="Feature 01"
+                                    style="width: 95px; height: 90px"
+                                >
                             </div>
 
                             <h4 class="feature-title mt-24">
-                                Aprenda Laravel
+                                Mova-se rápido com confiança
                             </h4>
                             <p class="text-sm mb-0">
-                                Através de eMazaGame podes aprender tudo o que precisas. Aprenda, desde línguas, matemática, tecnologia e outras ciências exactas e puras de forma divertida usando este aplicativo. Baixe agora!!!
+                                O Laravel está comprometido em oferecer a melhor experiência de teste que você pode imaginar. Belas APIs de teste, propagação de banco de dados e testes de navegador.
                             </p>
                         </div>
                     </div>
@@ -129,8 +151,8 @@
         <div class="container-sm">
             <div class="pricing-inner section-inner">
                 <div class="pricing-header text-center">
-                    <h2 class="section-title mt-0">Aplicativo com preços acessiveis</h2>
-                    <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
+                    <h2 class="section-title mt-0">Aplicativo com preços acessíveis</h2>
+                    <p class="section-paragraph mb-0">Cada recurso foi cuidadosamente considerado para fornecer uma experiência maravilhosa ao desenvolvedor.</p>
 
                 </div>
                 <div class="pricing-tables-wrap">
@@ -143,21 +165,21 @@
                                 <div class="pricing-table-features-title text-xs pt-24 pb-24">Todos recursos básicos</div>
                                 <ul class="pricing-table-features list-reset text-xs">
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>Templates</span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>Base de dados</span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>API's</span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>...</span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="pricing-table-cta mb-8">
-                                <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
+                                <a class="button button-primary button-shadow button-block" href="#">Começar</a>
                             </div>
                         </div>
                     </div>
@@ -171,21 +193,21 @@
                                 <div class="pricing-table-features-title text-xs pt-24 pb-24">Todos conteudos completos</div>
                                 <ul class="pricing-table-features list-reset text-xs">
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>Bases de dados</span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>Filas </span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>WebSockets</span>
                                     </li>
                                     <li>
-                                        <span>Lorem ipsum dolor sit nisi</span>
+                                        <span>Autenticação</span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="pricing-table-cta mb-8">
-                                <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
+                                <a class="button button-primary button-shadow button-block" href="#">Comprar agora</a>
                             </div>
                         </div>
                     </div>

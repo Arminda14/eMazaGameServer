@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use \App\Http\Controllers\GenericController;
+use App\Http\Controllers\GenericController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +14,8 @@ use \App\Http\Controllers\GenericController;
 */
 
 Route::get('/',  [GenericController::class, 'landing']);
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
